@@ -24,7 +24,9 @@ Insights and recommendations are provided on the following key areas:
 - **The 'Big 6'** refers to the league's largest, wealthiest and most prestigious clubs: Manchester United, Manchester City, Chelsea, Liverpool, Arsenal and Tottenham Hotspur.
 - **Multi-Club Ownership (MCO)** refers to an ownership structure in which the owners of a Premier League club also acquire clubs in other, typically smaller, leagues, allowing them to pool resources, spread costs and ultimately work around PSR restrictions.
 The Python script used to scrape and clean the TransferMarkt data can be found here: [TransferMarkt Data Plotting.py](TransferMarkt%20Data%20Plotting.py)
- 
+
+The accompanying HTML files for scraping can be found: [HTML for Python Script](HTML%20for%20Python%20Script)
+
 The analysis figures for each club covered in this report can be found [here](Figures/).
  
  
