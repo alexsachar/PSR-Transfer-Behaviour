@@ -38,9 +38,10 @@ The dataset was built by scraping TransferMarkt tables for every Premier League 
 - **Arrivals / Departures:** The number of players signed (arrivals) and sold (departures) per club per season, i.e. transfer volume.
 - **League Position:** Final league finish per club per season.
 
-**Important Notes** 
+**Important Notes on the Figures** 
 - When a club was not in the Premier League in a given season, there is no data on the 4 metrics. This is reflected in the figures as empty entries.
 - Each figure shows the given metric over time in tandem with league position, to enable easier analysis on the relation between the two.
+- Figures for Arrivals and Departure data have a Y-axis of upper bound 2, as clubs do never exceed 2x the League Average. For Expenditure and Income, different Y-axis bounds are given depending on the club, allowing the local trend to be analysed better. For example, using a bound of 9 for Chelsea shows the full comparison of their spending; using a bound of 9 for Newcastle would make seeing the trend in data harder.
 
 
 # Executive Summary
@@ -64,15 +65,15 @@ PSR's introduction in 2014 has shifted how Premier League clubs do transfer busi
 * **The head start mattered.** Chelsea and Manchester City both used their head start on PSR to achieve instant and sustained success. This made them attractive destinations for players, making it easier to sign and keep top players even after PSR was introduced.
 #### Figures for Chelsea:
  
-![Chelsea FC: Expenditure and League Position](chelsea_expenditure.png)
+![Chelsea FC: Expenditure and League Position](Figures/chelsea_expenditure.png)
  
-**More Chelsea figures:** [Income](chelsea_income.png) · [Arrivals](chelsea_arrivals.png) · [Departures](chelsea_departures.png)
+**More Chelsea figures:** [Income](Figures/chelsea_income.png) · [Arrivals](Figures/chelsea_arrivals.png) · [Departures](Figures/chelsea_departures.png)
  
 #### Figures for Manchester City:
  
-![Manchester City: Expenditure and League Position](man_city_expenditure.png)
+![Manchester City: Expenditure and League Position](Figures/man_city_expenditure.png)
  
-**More Manchester City figures:** [Income](man_city_income.png) · [Arrivals](man_city_arrivals.png) · [Departures](man_city_departures.png)
+**More Manchester City figures:** [Income](Figures/man_city_income.png) · [Arrivals](Figures/man_city_arrivals.png) · [Departures](Figures/man_city_departures.png)
  
  
 ### Case 2: Newcastle United
@@ -85,11 +86,11 @@ PSR's introduction in 2014 has shifted how Premier League clubs do transfer busi
 * **PSR has made the Big 6 a closed shop.** Newcastle's lack of appeal to star players is partly down to being seen as a 'second-rate' destination, outside the profile and prestige that come with playing for a Big 6 club. City and Chelsea once carried this reputation too, but with no financial regulation in place they could brute-force success and shake it off. Newcastle have neither the status nor the financial freedom to do the same.
 * **Recruitment is the new circuit breaker.** The circuit breaker to the doom spiral used to be money; now it is recruitment. The fee from selling Alexander Isak, Newcastle's best player, to league rivals Liverpool in 2025 was reinvested in underwhelming signings such as Nick Woltemade and Anthony Elanga. Smarter, performance-analysis-led recruitment may have softened the loss of Isak and helped sustain the club's league performance. By contrast, Brighton & Hove Albion have sustained success despite consistently selling their best players, by investing in relatively unknown players found through a wide scouting network. This has delivered a better return on investment and kept them out of the doom spiral. However, Brighton's aim does not appear to be breaking into the Big 6, but rather sustained top-half finishes while strengthening the club's infrastructure and footballing structures.
 * **No multi-club model (yet).** Newcastle have focused on a single club rather than an MCO model, although a [Daily Mail report](https://www.dailymail.com/sport/football/article-15553515/Newcastle-players-summit-Saudi-multi-club-network-Bruno-Guimaraes-injury.html) from February 2026 suggests PIF are now looking into adopting one.
-![Newcastle United: Expenditure and League Position](newcastle_expenditure.png)
+![Newcastle United: Expenditure and League Position](Figures/newcastle_expenditure.png)
  
-![Newcastle United: Arrivals and League Position](newcastle_arrivals.png)
+![Newcastle United: Arrivals and League Position](Figures/newcastle_arrivals.png)
  
-**More Newcastle figures:** [Income](newcastle_income.png) · [Departures](newcastle_departures.png)
+**More Newcastle figures:** [Income](Figures/newcastle_income.png) · [Departures](Figures/newcastle_departures.png)
  
  
 ### Case 3: Aston Villa
@@ -99,11 +100,11 @@ PSR's introduction in 2014 has shifted how Premier League clubs do transfer busi
 * **Falling spend, volatile income.** Expenditure has steadily decreased since takeover, regularly dipping below the league average. Income has fluctuated heavily, as have arrivals and departures, likely due to being forced to sell players to comply with PSR. This suggests difficulty in translating owner wealth into on-pitch investment.
 * **Investing in long-term stability.** Villa have invested in the club's future through a new stand at Villa Park, a training centre, the MCO model and the women's team.
 * **Not immune to the doom spiral.** Villa have faced the same problems as Newcastle. Without a strong recruitment strategy, and following underwhelming signings this year, they are seeing their first dip in league form under Emery. In summer 2026 alone, despite qualifying for the Champions League (which top players generally see as essential to a club's appeal), Villa were forced to sell star players including Morgan Rogers, Emi Martínez, Youri Tielemans and Ollie Watkins. Villa have argued publicly that PSR has calcified the Big 6, as the doom spiral is hard to escape without external investment.
-![Aston Villa: Expenditure and League Position](aston_villa_expenditure.png)
+![Aston Villa: Expenditure and League Position](Figures/aston_villa_expenditure.png)
  
-![Aston Villa: Departures and League Position](aston_villa_departures.png)
+![Aston Villa: Departures and League Position](Figures/aston_villa_departures.png)
  
-**More Aston Villa figures:** [Income](aston_villa_income.png) · [Arrivals](aston_villa_arrivals.png)
+**More Aston Villa figures:** [Income](Figures/aston_villa_income.png) · [Arrivals](Figures/aston_villa_arrivals.png)
  
  
 ### Category 4: Multi-Club Ownership (MCO)
